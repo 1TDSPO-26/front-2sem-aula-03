@@ -1,21 +1,25 @@
 {
-  "name": "primeiro-app",
+  "name": "gestao-notas",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "node app.js",
-    "preview": "node dist/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "db": "json-server db.json --port 3001"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "typescript": "^7.0.2"
-  },
+  "type": "module",
   "dependencies": {
-    "nodemon": "^3.1.14"
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.2",
+    "json-server": "^1.0.0-beta.15",
+    "tsx": "^4.23.9",
+    "typescript": "^7.0.2"
   }
 }

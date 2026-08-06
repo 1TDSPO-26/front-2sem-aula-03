@@ -1,0 +1,19 @@
+{
+    "alunos": [
+        {
+            "id":1,
+            "rm":565767,
+            "nome":"José Sardinha"
+        },
+        {
+            "id":1,
+            "rm":565767,
+            "nome":"José Sardinha"
+        },
+        {
+            "id":1,
+            "rm":565767,
+            "nome":"José Sardinha"
+        }
+    ]
+}
