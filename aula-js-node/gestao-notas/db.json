@@ -1,0 +1,25 @@
+{
+  "alunos": [
+    {
+      "id": "1",
+      "rm": 565767,
+      "nome": "José Sardinha",
+      "nota1": 8,
+      "nota2": 7
+    },
+    {
+      "id": "2",
+      "rm": 954356,
+      "nome": "Ana Silva",
+      "nota1": 6,
+      "nota2": 4
+    },
+    {
+      "id": "3",
+      "rm": 435543,
+      "nome": "Carlos Souza",
+      "nota1": 5,
+      "nota2": 8
+    }
+  ]
+}
