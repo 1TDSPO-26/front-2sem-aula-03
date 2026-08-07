@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+ 
+  <meta
+
+    name="viewport"
+
+    content="width=device-width, initial-scale=1.0"
+>
+ 
+  <title>Gerenciador de notas</title>
+ 
+  <link rel="stylesheet" href="./style.css">
+ 
+  <script src="./app.js" defer></script>
+</head>
+ 
+<body>
+<header>
+<h1>Gerenciador de notas</h1>
+<p>Cadastre os alunos e acompanhe suas médias.</p>
+</header>
+ 
+  <main>
+<section>
+<h2>Cadastrar aluno</h2>
+ 
+      <form id="form-aluno">
+<label for="nome">Nome do aluno</label>
+<input type="text" id="nome" required>
+ 
+        <label for="nota1">Primeira nota</label>
+<input
+
+          type="number"
+
+          id="nota1"
+
+          min="0"
+
+          max="10"
+
+          step="0.1"
+
+          required
+>
+ 
+        <label for="nota2">Segunda nota</label>
+<input
+
+          type="number"
+
+          id="nota2"
+
+          min="0"
+
+          max="10"
+
+          step="0.1"
+
+          required
+>
+ 
+        <button type="submit">Cadastrar</button>
+</form>
+ 
+      <p id="mensagem"></p>
+</section>
+ 
+    <section>
+<h2>Alunos cadastrados</h2>
+ 
+      <table>
+<thead>
+<tr>
+<th>Aluno</th>
+<th>Nota 1</th>
+<th>Nota 2</th>
+<th>Média</th>
+<th>Situação</th>
+</tr>
+</thead>
+ 
+        <tbody id="lista-alunos"></tbody>
+</table>
+</section>
+</main>
+</body>
+</html>
+ 
